@@ -86,6 +86,9 @@ textarea {
 body {
   background: #4488e1;
   background: url("/img/cityscape.png") no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='/img/cityscape.png',
+    sizingMethod='scale');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
