@@ -25,7 +25,7 @@
 
     		<div class="top-nav">
           <label for="top-search" class="search-wrapper">
-            <input id="top-search" class="search" type="search" placeholder="Search">
+            <input id="top-search" class="search" type="text" placeholder="Search">
             <span class="icon-search"></span>
           </label>
     			
