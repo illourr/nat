@@ -24,10 +24,10 @@
     		<img id="logo" alt="Crispin &amp; Mulberry Logo" src="/img/crispinmulberry-logo.png">
 
     		<div class="top-nav">
-          <div class="search-wrapper">
-            <input class="search" type="search" placeholder="Search">
-            <span class="search-icon"></span>
-          </div>
+          <label for="top-search" class="search-wrapper">
+            <input id="top-search" class="search" type="search" placeholder="Search">
+            <span class="icon-search"></span>
+          </label>
     			
     		</div>
       	

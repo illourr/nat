@@ -121,6 +121,9 @@ body {
   float: right;
 }
 
+#top .top-nav .search-wrapper {
+  position: relative;
+}
 #top .top-nav .search-wrapper .search {
   -webkit-box-shadow: inset 0 0 5px #000;
   -moz-box-shadow: inset 0 0 5px #000;
@@ -132,9 +135,12 @@ body {
 }
 
 #top .top-nav .search-wrapper .icon-search {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  right: 10px;
   background: url('/img/icons/icon-search.png');
-  float: right;
-  padding: 5px;
 }
 /* End of #top styles*/
 
