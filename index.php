@@ -23,11 +23,18 @@
       <div id="top" class="container">
     		<img id="logo" alt="Crispin &amp; Mulberry Logo" src="/img/crispinmulberry-logo.png">
 
-    		<div class="top-nav">
+    		<div class="top-group">
           <label for="top-search" class="search-wrapper">
             <input id="top-search" class="search" type="text" placeholder="Search">
             <span class="icon-search"></span>
-          </label>
+          </label> 
+          <nav class="user-nav">
+            <a href="#">My Account</a>
+            <span class="vertical-rule"></span>
+            <a href="#">My Subscriptions</a>
+            <span class="vertical-rule"></span>
+            <a href="#">My Articles</a>
+          </nav>
     			
     		</div>
       	
