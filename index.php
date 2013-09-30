@@ -23,8 +23,8 @@
       <div id="top" class="container">
     		<img id="logo" alt="Crispin &amp; Mulberry Logo" src="/img/crispinmulberry-logo.png">
 
-    		<div class="top-group">
-          <label for="top-search" class="search-wrapper">
+    		<div class="top-group clearfix">
+          <label for="top-search" class="search-wrapper ">
             <input id="top-search" class="search" type="text" placeholder="Search">
           </label> 
           <div class="user-nav">
