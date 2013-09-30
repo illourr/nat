@@ -130,8 +130,9 @@ body {
 }
 
 #top .top-group {
-  margin-top: 31px;
   float: right;
+  width: 261px;
+  margin-top: 31px;
 }
 
 #top .top-group .search-wrapper {
