@@ -205,6 +205,7 @@ body {
   border-top: 1px solid #c2c2c2;
   border-bottom: 1px solid #c2c2c2;
   background-color: #fff;
+  background-image: url("/img/navbar.png");
   background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
