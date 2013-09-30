@@ -71,10 +71,18 @@
             </a>
           </li>
         </ul>
-      </div>
+        <div class="main-content">
+          <div class="section-content">
+            <div class="carousel">
 
-      <div class="main-content">
-
+            </div>
+          </div>
+          <div class="sidebar-content">
+            <div class="advertisement">
+            </div>
+            <div class="advertisement">
+            </div>
+        </div>
       </div>
       <div class="footer">
         <div class="footer-left">
@@ -99,7 +107,9 @@
         <div class="footer-right">
         </div>
       </div>
-    </div>
+      
+
+      
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

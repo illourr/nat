@@ -91,6 +91,10 @@ textarea {
   margin-right: 8px;
 }
 
+.margin-bottom-20px {
+  margin-bottom: 20px;
+}
+
 /* ==========================================================================
    Custom styles
    ========================================================================== */
@@ -249,6 +253,31 @@ body {
   background: #fff;
 }
 
+.section-content {
+  float: left;
+  width: 665px;
+  margin: 20px 0 20px 20px;
+}
+
+.sidebar-content {
+  float: left;
+  width: 275px;
+  margin: 20px 0 20px 20px;
+}
+
+.advertisement {
+  width: 274px;
+  height: 200px;
+  box-shadow: 0 0 1px 1px black;
+  margin-bottom: 20px;
+}
+
+/* .carousel styles */
+.carousel {
+  box-shadow: 0 0 1px 1px black;
+  height: 420px;
+}
+/* End of .carousel styles*/
 
 /* End of .main-content styles */
 
