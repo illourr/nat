@@ -191,9 +191,10 @@ body {
 .main-nav .nav-item a {
   display: block;
   position: relative;
+  height: 40px;
+  padding-top: 12px;
   color: #5f6062;
   font-weight: bold;
-  line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 0 1px #fff;
@@ -207,7 +208,8 @@ body {
   color: #282b2e;
   background: #fff;
   top: -4px;
-  padding-top: 4px;
+  height: 44px;
+  padding-top: 16px;
   padding-bottom: 1px;
   border-top: 1px solid #c2c2c2;
   border-left: 1px solid #c2c2c2;
