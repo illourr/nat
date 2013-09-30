@@ -32,7 +32,7 @@
             <span class="vertical-rule margin-right-8px"></span>
             <a href="#" class="margin-right-8px">My Subscriptions</a>
             <span class="vertical-rule margin-right-8px"></span>
-            <a href="#" class="margin-right-8px">My Articles</a>
+            <a href="#" class="">My Articles</a>
           </div>
     			
     		</div>
