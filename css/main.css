@@ -181,13 +181,8 @@ body {
   position: relative;
   float:left;
   height: 40px;
-  width: 166.666667px;
+  width: 16.6666667%;
   text-align: center;
-  background-color: #fff;
-  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
-  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
-  background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
-  background-image: linear-gradient(to top, rgba(0,0,0,.19), rgba(255,255,255,.19));
 }
 
 .main-nav .nav-item.active {
@@ -205,6 +200,12 @@ body {
   text-shadow: 0 1px #fff;
   border-top: 1px solid #c2c2c2;
   border-bottom: 1px solid #c2c2c2;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
+  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
+  background-image: linear-gradient(to top, rgba(0,0,0,.19), rgba(255,255,255,.19));
+
 }
 .main-nav .nav-item a:hover {
   background: #cacccf;
@@ -224,7 +225,7 @@ body {
   top: 12px;
 }
 .main-nav .nav-item.active a span {
-  top: 15px;
+  top: 16px;
 }
 /* End of .main-nav styles */
 
