@@ -181,12 +181,12 @@ body {
   position: relative;
   float:left;
   height: 40px;
-  width: 16.6666667%;
+  width: 166.666667px;
   text-align: center;
 }
 
 .lt-ie8 .main-nav .nav-item {
-  width: 16.6333333%;
+  width: 166.333333px;
 }
 
 .main-nav .nav-item.active {
