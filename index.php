@@ -40,22 +40,22 @@
       </div>
       <div id="main" class="container">
       	<ul class="main-nav clearfix">
-          <li class="nav-item">
+          <li class="nav-item plus1">
             <a href="#" class="">
               <span>Destinations</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item plus1">
             <a href="#" class="">
               <span>Getaways</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item plus1">
             <a href="#" class="">
               <span>Travel Tips</span>
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item plus1 active">
             <a href="#" class="">
               <span>News &amp; Features</span>
             </a>
