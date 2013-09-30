@@ -26,7 +26,6 @@
     		<div class="top-group">
           <label for="top-search" class="search-wrapper">
             <input id="top-search" class="search" type="text" placeholder="Search">
-            <span class="icon-search"></span>
           </label> 
           <nav class="user-nav">
             <a href="#">My Account</a>
