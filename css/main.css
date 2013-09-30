@@ -175,10 +175,12 @@ body {
   padding:0;
 }
 .main-nav .nav-item {
+  position: relative;
+  top: 4px;
   float:left;
   width: 166.666667px;
   text-align: center;
-  background-color: #fff;
+  background-color: #ddd;
   background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
@@ -187,6 +189,7 @@ body {
 
 .main-nav .nav-item.active {
   background-image: none;
+  top: 0;
 }
 .main-nav .nav-item a {
   display: block;
@@ -207,7 +210,6 @@ body {
 .main-nav .nav-item.active a {
   color: #282b2e;
   background: #fff;
-  top: -4px;
   height: 44px;
   padding-top: 16px;
   padding-bottom: 1px;
@@ -220,7 +222,7 @@ body {
 
 #main.container {
   height: 1000px;
-  background: #fff;
+  /*background: #fff;*/
 }
 
 

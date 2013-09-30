@@ -39,7 +39,7 @@
       	
       </div>
       <div id="main" class="container">
-      	<ul class="main-nav">
+      	<ul class="main-nav clearfix">
           <li class="nav-item">
             <a href="#" class="">
             Destinations
