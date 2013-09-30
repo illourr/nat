@@ -27,13 +27,13 @@
           <label for="top-search" class="search-wrapper">
             <input id="top-search" class="search" type="text" placeholder="Search">
           </label> 
-          <nav class="user-nav">
+          <div class="user-nav">
             <a href="#">My Account</a>
             <span class="vertical-rule"></span>
             <a href="#">My Subscriptions</a>
             <span class="vertical-rule"></span>
             <a href="#">My Articles</a>
-          </nav>
+          </div>
     			
     		</div>
       	

@@ -153,6 +153,7 @@ body {
 #top .top-group .user-nav {
   display: block;
   margin-top: 16px;
+  color: #fff;
 }
 #top .top-group .user-nav a {
   text-decoration: none;
