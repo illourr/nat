@@ -83,6 +83,10 @@ textarea {
   background: #fff;
 }
 
+.lt-ie8 .vertical-rule {
+  top: 0px;
+}
+
 .margin-right-8px {
   margin-right: 8px;
 }
