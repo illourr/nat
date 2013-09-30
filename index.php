@@ -72,6 +72,33 @@
           </li>
         </ul>
       </div>
+
+      <div class="main-content">
+
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+
+          <div class="footer-nav">
+            <a href="#" class="margin-right-8px">Privacy Policy</a>
+            <span class="vertical-rule margin-right-8px"></span>
+            <a href="#" class="margin-right-8px">Terms of Use</a>
+            <span class="vertical-rule margin-right-8px"></span>
+            <a href="#" class="margin-right-8px">Site Map</a>
+            <span class="vertical-rule margin-right-8px"></span>
+            <a href="#" class="">Contact Us</a>
+          </div>
+          <div class="footer-copyright">
+            <span class="margin-right-8px">
+            &copy; 2013 Crispin &amp; Mulberry
+            </span>
+            <span class="vertical-rule margin-right-8px"></span>
+            <span class="">1640 Riverside Drive, Hill Valley, California</span>
+          </div>
+        </div>
+        <div class="footer-right">
+        </div>
+      </div>
     </div>
 
 

@@ -196,7 +196,7 @@ body {
 .main-nav .nav-item a {
   display: block;
   position: relative;
-  height: 39px;
+  height: 40px;
   color: #5f6062;
   font-weight: bold;
   text-decoration: none;
@@ -211,6 +211,10 @@ body {
   background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: linear-gradient(to top, rgba(0,0,0,.19), rgba(255,255,255,.19));
 
+}
+
+.lt-ie8 .main-nav .nav-item a {
+  height: 39px;
 }
 .main-nav .nav-item a:hover {
   background: #cacccf;
@@ -234,8 +238,53 @@ body {
 }
 /* End of .main-nav styles */
 
+
+/* .main-content styles */
+.main-content {
+  height: 1400px;
+  background: #fff;
+}
+
+
+/* End of .main-content styles */
+
+/* .footer styles */
+.footer {
+  height: 66px;
+  background: #2C2C2C;
+}
+.footer .footer-left {
+  float: left;
+  position: relative;
+  top: 12px;
+  left: 20px;
+}
+.footer .footer-left .footer-nav {
+  
+}
+.footer .footer-left .footer-nav a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer-left .footer-nav a:hover {
+  text-decoration: underline;
+}
+.footer .footer-left .footer-copyright {
+  margin-top: 5px;
+  color: #969696;
+}
+.footer .footer-left .footer-copyright .vertical-rule {
+  background: #969696;
+}
+
+.footer .footer-right {
+  float: right;
+}
+/* End of .footer styles*/
+
 #main.container {
-  height: 1000px;
+  /*height: 1000px;*/
   /*background: #fff;*/
 }
 
