@@ -132,28 +132,32 @@ body {
 }
 
 #top .top-group .search-wrapper {
+  display: block;
   position: relative;
+  width: 260px;
+  height: 26px;
 }
 #top .top-group .search-wrapper .search {
+  padding: 6px 8px;
+  width: 100%;
+  height: 100%;
+  border: none;
   -webkit-box-shadow: inset 0 0 5px #000;
   -moz-box-shadow: inset 0 0 5px #000;
   box-shadow: inset 0 0 5px #000;
-  border: none;
-  width: 260px;
-  height: 26px;
-  padding: 0 8px;
 }
 
 #top .top-group .search-wrapper .icon-search {
   position: absolute;
   width: 14px;
   height: 14px;
-  top: 0;
+  top: 7px;
   right: 8px;
   background: url('/img/icons/icon-search.png');
 }
 
 #top .top-group nav.user-nav {
+  display: block;
   margin-top: 16px;
 }
 #top .top-group nav.user-nav a {
