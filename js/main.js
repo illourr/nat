@@ -17,7 +17,13 @@
   	    input.val(input.attr('placeholder'));
   	  }
   	}).blur();
-    
+
+    // Set #main-nav .nav-items active
+    $(".main-nav .nav-item").on("click", function(e) {
+      e.preventDefault();
+      $(".main-nav .nav-item").removeClass("active");
+      $(this).addClass("active");
+    });
   })
 
 }());	

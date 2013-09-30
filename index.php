@@ -28,18 +28,49 @@
             <input id="top-search" class="search" type="text" placeholder="Search">
           </label> 
           <div class="user-nav">
-            <a href="/" class="margin-right-8px">My Account</a>
+            <a href="#" class="margin-right-8px">My Account</a>
             <span class="vertical-rule margin-right-8px"></span>
-            <a href="/" class="margin-right-8px">My Subscriptions</a>
+            <a href="#" class="margin-right-8px">My Subscriptions</a>
             <span class="vertical-rule margin-right-8px"></span>
-            <a href="/" class="">My Articles</a>
+            <a href="#" class="">My Articles</a>
           </div>
     			
     		</div>
       	
       </div>
       <div id="main" class="container">
-      	
+      	<ul class="main-nav">
+          <li class="nav-item">
+            <a href="#" class="">
+            Destinations
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="">
+            Getaways
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="">
+            Travel Tips
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="">
+            News &amp; Features
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="">
+            Contests
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="">
+            Contact Us
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 
