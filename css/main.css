@@ -171,16 +171,19 @@ body {
 
 /* .main-nav styles */
 .main-nav {
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
   list-style: none;
-  padding:0;
 }
 .main-nav .nav-item {
   position: relative;
-  top: 4px;
   float:left;
+  height: 100%;
   width: 166.666667px;
   text-align: center;
-  background-color: #ddd;
+  background-color: #fff;
   background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
   background-image: -o-linear-gradient(bottom, rgba(0,0,0,.19), rgba(255,255,255,.19));
@@ -189,13 +192,12 @@ body {
 
 .main-nav .nav-item.active {
   background-image: none;
-  top: 0;
+  top: -4px;
 }
 .main-nav .nav-item a {
   display: block;
   position: relative;
-  height: 40px;
-  padding-top: 12px;
+  height: 100%;
   color: #5f6062;
   font-weight: bold;
   text-decoration: none;
@@ -211,12 +213,18 @@ body {
   color: #282b2e;
   background: #fff;
   height: 44px;
-  padding-top: 16px;
-  padding-bottom: 1px;
   border-top: 1px solid #c2c2c2;
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2;
   border-bottom: none;
+}
+
+.main-nav .nav-item a span {
+  position: relative;
+  top: 12px;
+}
+.main-nav .nav-item.active a span {
+  top: 15px;
 }
 /* End of .main-nav styles */
 

@@ -42,32 +42,32 @@
       	<ul class="main-nav clearfix">
           <li class="nav-item">
             <a href="#" class="">
-            Destinations
+              <span>Destinations</span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="">
-            Getaways
+              <span>Getaways</span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="">
-            Travel Tips
+              <span>Travel Tips</span>
             </a>
           </li>
           <li class="nav-item active">
             <a href="#" class="">
-            News &amp; Features
+              <span>News &amp; Features</span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="">
-            Contests
+              <span>Contests</span>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="">
-            Contact Us
+              <span>Contact Us</span>
             </a>
           </li>
         </ul>
