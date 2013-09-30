@@ -28,11 +28,11 @@
             <input id="top-search" class="search" type="text" placeholder="Search">
           </label> 
           <div class="user-nav">
-            <a href="#">My Account</a>
-            <span class="vertical-rule"></span>
-            <a href="#">My Subscriptions</a>
-            <span class="vertical-rule"></span>
-            <a href="#">My Articles</a>
+            <a href="#" class="margin-right-8px">My Account</a>
+            <span class="vertical-rule margin-right-8px"></span>
+            <a href="#" class="margin-right-8px">My Subscriptions</a>
+            <span class="vertical-rule margin-right-8px"></span>
+            <a href="#" class="margin-right-8px">My Articles</a>
           </div>
     			
     		</div>
