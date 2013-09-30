@@ -174,7 +174,6 @@ body {
   height: 40px;
   padding: 0;
   margin: 0;
-  background-color: #ddd;
   list-style: none;
 }
 .main-nav .nav-item {
@@ -183,6 +182,7 @@ body {
   height: 40px;
   width: 166px;
   text-align: center;
+  background-color: #fff;
 }
 .main-nav .nav-item.plus1 {
   width: 167px;
