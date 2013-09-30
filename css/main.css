@@ -185,6 +185,10 @@ body {
   text-align: center;
 }
 
+.lt-ie8 .main-nav .nav-item {
+  width: 16.6333333%;
+}
+
 .main-nav .nav-item.active {
   background-image: none;
   top: -4px;
