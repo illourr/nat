@@ -53,7 +53,7 @@
 
 
     var intervalId = 0;
-    
+
     intervalId = setInterval(function(){
       rotateImages();
     }, 4000);
@@ -63,7 +63,9 @@
         clearInterval(intervalId, 0);
       })
       .on("mouseleave", function() {
-        rotateImages();
+        $(".indicator").stop().css("width", "0%").animate({
+          "width": "100%"
+        }, 4000);
         intervalId = setInterval(function(){
           rotateImages();
         }, 4000);
