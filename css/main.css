@@ -262,7 +262,7 @@ body {
 
 .section-content {
   float: left;
-  width: 665px;
+  width: 666px;
   margin: 20px 0 20px 20px;
 }
 
@@ -328,7 +328,7 @@ body {
 }
 .carousel .thumbnail-group .thumbnail-wrapper {
   position: relative;
-  width: 23.87%;
+  width: 159px;
   height: 79px;
   margin-top: 10px;
   margin-right: 10px;
@@ -336,16 +336,14 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.lt-ie8 .carousel .thumbnail-group .thumbnail-wrapper {
-  width: 23.83%;
-}
 
 .carousel .thumbnail-group .thumbnail-wrapper.active .blue-frame {
   position: absolute;
-  height:100%;
-  width: 100%;
+  width: 159px;
+  height: 79px;
   border: 3px solid #0084de;
 }
+
 
 .carousel .thumbnail-group .thumbnail-wrapper.last {
   margin-right: 0;
