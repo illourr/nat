@@ -38,8 +38,9 @@
 
       $carousel.find('.active-image').addClass("hidden");
       $carousel.find('.active-image').eq(index).removeClass("hidden");
-
-      currentIndex = index + 1;
+      if(index == 3) {
+        currentIndex = 0;
+      }
     });
 
     var slides = [];
