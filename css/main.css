@@ -305,6 +305,11 @@ body {
   width: 100%;
   height: 68px;
 }
+.lt-ie8 .carousel .active-image .caption-background {
+  opacity: 1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85); 
+}
 .carousel .active-image .caption {
   color: #282b2e;
   height: 68px;
