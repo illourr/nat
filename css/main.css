@@ -334,7 +334,7 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.lt-ie8.carousel .thumbnail-group .thumbnail-wrapper {
+.lt-ie8 .carousel .thumbnail-group .thumbnail-wrapper {
   width: 23%;
 }
 
