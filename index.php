@@ -37,7 +37,7 @@
     			
     		</div>
       	
-      </div>
+      </div> <!-- End of #top -->
       <div id="main" class="container">
       	<ul class="main-nav clearfix">
           <li class="nav-item plus1">
@@ -70,20 +70,90 @@
               <span>Contact Us</span>
             </a>
           </li>
-        </ul>
+        </ul> <!-- End of .main-nav -->
         <div class="main-content">
           <div class="section-content">
             <div class="carousel">
-
+              <div class="indicator"></div>
+              <div class="active-image">
+                <img class="" src="/img/carousel/slide1.png">
+                <div class="caption-background"></div>
+                <div class="caption">
+                  <h2>
+                  DOWNTOWN BALTIMORE
+                  </h2>
+                  <p>
+                  Check out the USS Torsk at Baltimore’s historic Maritime Museum.
+                  </p>
+                </div>
+              </div>
+              <div class="active-image hidden">  
+                <img class="" src="/img/carousel/slide2.png">
+                <div class="caption-background"></div>
+                <div class="caption">
+                  <h2>
+                  EXPLORING THE VENETIAN
+                  </h2>
+                  <p>
+                  Enjoy the best gondola ride on this side of the Atlantic Ocean.
+                  </p>
+                </div>
+              </div>
+              <div class="active-image hidden">
+                <img class="" src="/img/carousel/slide3.png">
+                <div class="caption-background"></div>
+                <div class="caption">
+                  <h2>
+                  LONDON AFTER DARK
+                  </h2>
+                  <p>
+                  Enjoy the pubs along the river Thames &amp; get spectacular view from the London Eye.
+                  </p>
+                </div>
+              </div>
+              <div class="active-image hidden">
+                <img class="" src="/img/carousel/slide4.png">
+                <div class="caption-background"></div>
+                <div class="caption">
+                  <h2>
+                  MOUNT RUSHMORE
+                  </h2>
+                  <p>
+                  Marvel at the majestic beauty of the Black Hills and come face to face with American history.
+                  </p>
+                </div>
+              </div>
+              <div class="thumbnail-group clearfix">
+                <div class="thumbnail-wrapper active">
+                  <span class="triangle"></span>
+                  <img class="thumbnail" src="/img/carousel/thumb1.png">
+                </div>
+                <div class="thumbnail-wrapper">
+                  <span class="triangle"></span>
+                  <img class="thumbnail" src="/img/carousel/thumb2.png">
+                </div>
+                <div class="thumbnail-wrapper">
+                  <span class="triangle"></span>
+                  <img class="thumbnail" src="/img/carousel/thumb3.png">
+                </div>
+                <div class="thumbnail-wrapper last">
+                  <span class="triangle"></span>
+                  <img class="thumbnail" src="/img/carousel/thumb4.png">
+                </div>
+              </div>
             </div>
           </div>
           <div class="sidebar-content">
-            <div class="advertisement">
+            <div class="advertisement margin-bottom-20px">
+              <img src="/img/ad-1.png"/>
             </div>
             <div class="advertisement">
+              <img src="/img/ad-2.png"/>
             </div>
-        </div>
-      </div>
+          </div>
+          <hr>
+        </div> <!-- End of .main-content -->
+      </div>  <!-- End of #main -->
       <div class="footer">
         <div class="footer-left">
 
@@ -106,7 +176,8 @@
         </div>
         <div class="footer-right">
         </div>
-      </div>
+      </div> <!-- End of .footer -->
+    </div> <!-- End of #page -->
       
 
       

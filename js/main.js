@@ -24,6 +24,8 @@
       $(".main-nav .nav-item").removeClass("active");
       $(this).addClass("active");
     });
+
+    $(".carousel").carousel();
   })
 
 }());	
