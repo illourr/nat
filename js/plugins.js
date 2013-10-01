@@ -39,11 +39,7 @@
       $carousel.find('.active-image').addClass("hidden");
       $carousel.find('.active-image').eq(index).removeClass("hidden");
 
-      $(".thumbnail-wrapper").each(function(key, thumb) {
-        if($(thumb).hasClass('active')) {
-          currentIndex = $(thumb).index();
-        }
-      });
+      currentIndex = index + 1;
     });
 
     var slides = [];
