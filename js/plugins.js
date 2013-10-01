@@ -40,6 +40,8 @@
       $carousel.find('.active-image').eq(index).removeClass("hidden");
       if(index == 3) {
         currentIndex = 0;
+      } else {
+        currentIndex = index + 1;
       }
     });
 
