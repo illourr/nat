@@ -344,7 +344,7 @@ body {
   border: 3px solid #0084de;
 }
 
-.lt-ie7 .carousel .thumbnail-group .thumbnail-wrapper.active .blue-frame {
+.lt-ie8 .carousel .thumbnail-group .thumbnail-wrapper.active .blue-frame {
   width: 156px;
   height: 76px;
 }
