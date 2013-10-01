@@ -340,14 +340,13 @@ body {
   width: 23.83%;
 }
 
-.carousel .thumbnail-group .thumbnail-wrapper.active:before {
-  box-shadow: 0px 0px 0px 3px #0084de inset;
-  display:block;
-  content:'';
-  position:absolute;
-  width:100%;
+.carousel .thumbnail-group .thumbnail-wrapper.active .blue-frame {
+  position: absolute;
   height:100%;
+  width: 100%;
+  border: 3px solid #0084de;
 }
+
 .carousel .thumbnail-group .thumbnail-wrapper.last {
   margin-right: 0;
 }
