@@ -124,22 +124,22 @@
                 </div>
               </div>
               <div class="thumbnail-group clearfix">
-                <div class="thumbnail-wrapper first active">
+                <div class="thumbnail-wrapper active">
                   <div class="blue-frame"></div>
                   <span class="triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb1.png">
                 </div>
-                <div class="thumbnail-wrapper second">
+                <div class="thumbnail-wrapper">
                   <div class="blue-frame"></div>
                   <span class="triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb2.png">
                 </div>
-                <div class="thumbnail-wrapper third">
+                <div class="thumbnail-wrapper">
                   <div class="blue-frame"></div>
                   <span class="triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb3.png">
                 </div>
-                <div class="thumbnail-wrapper fourth">
+                <div class="thumbnail-wrapper last">
                   <div class="blue-frame"></div>
                   <span class="triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb4.png">

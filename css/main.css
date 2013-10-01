@@ -330,8 +330,8 @@ body {
   position: relative;
   width: 159px;
   height: 79px;
-  top: 10px;
-  left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
   float: left;
   text-align: center;
   cursor: pointer;
@@ -344,18 +344,14 @@ body {
   border: 3px solid #0084de;
 }
 
+.lt-ie7 .carousel .thumbnail-group .thumbnail-wrapper.active .blue-frame {
+  width: 156px;
+  height: 76px;
+}
 
-.carousel .thumbnail-group .thumbnail-wrapper.first {
-  left: 0;
-}
-.carousel .thumbnail-group .thumbnail-wrapper.second {
-  left: 10px;
-}
-.carousel .thumbnail-group .thumbnail-wrapper.third {
-  left: 20px;
-}
-.carousel .thumbnail-group .thumbnail-wrapper.fourth {
-  left: 30px;
+
+.carousel .thumbnail-group .thumbnail-wrapper.last {
+  margin-right: 0;
 }
 
 .carousel .thumbnail-group .thumbnail-wrapper .triangle {
