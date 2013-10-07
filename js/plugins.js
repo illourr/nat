@@ -58,13 +58,9 @@
     }, 4000);
     $carousel
       .on("mouseenter", function() {
-        $(".indicator").stop().css("width", "0%");
         clearInterval(intervalId, 0);
       })
       .on("mouseleave", function() {
-        $(".indicator").stop().css("width", "0%").animate({
-          "width": "100%"
-        }, 4000);
         intervalId = setInterval(function(){
           rotateImages();
         }, 4000);
@@ -81,9 +77,6 @@
       } else {
         currentIndex++;
       }
-      $(".indicator").stop().css("width", "0%").animate({
-        "width": "100%"
-      }, 4000);
     };
     rotateImages();
   };

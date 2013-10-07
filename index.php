@@ -72,8 +72,9 @@
           </li>
         </ul> <!-- End of .main-nav -->
         <div class="main-content">
-          <div class="section-content">
-            <div class="carousel">
+          <div class="section-content" id="hero">
+            <!--  CAROUSEL START -->
+            <div class="carousel"> 
               <div class="indicator"></div>
               <div class="active-image">
                 <img class="" src="/img/carousel/slide1.png">
@@ -126,28 +127,28 @@
               <div class="thumbnail-group clearfix">
                 <div class="thumbnail-wrapper active">
                   <div class="blue-frame"></div>
-                  <span class="triangle"></span>
+                  <span class="icon-blue-triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb1.png">
                 </div>
                 <div class="thumbnail-wrapper">
                   <div class="blue-frame"></div>
-                  <span class="triangle"></span>
+                  <span class="icon-blue-triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb2.png">
                 </div>
                 <div class="thumbnail-wrapper">
                   <div class="blue-frame"></div>
-                  <span class="triangle"></span>
+                  <span class="icon-blue-triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb3.png">
                 </div>
                 <div class="thumbnail-wrapper last">
                   <div class="blue-frame"></div>
-                  <span class="triangle"></span>
+                  <span class="icon-blue-triangle"></span>
                   <img class="thumbnail" src="/img/carousel/thumb4.png">
                 </div>
               </div>
-            </div>
+            </div> <!--  CAROUSEL FINISH -->
           </div>
-          <div class="sidebar-content">
+          <div class="sidebar-content" id="advertisements">
             <div class="advertisement margin-bottom-20px">
               <img src="/img/ad-1.png"/>
             </div>
@@ -156,6 +157,69 @@
             </div>
           </div>
           <hr>
+          <div class="section-content" id="categories-and-articles">
+            <div class="categories">
+              <div class="blue-header categories-header left-hang">
+                <img class="fold" src="/img/fold.png">
+                <h3>
+                  <img class="icon" src="/img/icons/icon-categories.png">
+                  Browse Categories
+                </h3>
+              </div>
+              <div class="categories-list">
+                <h4>
+                Popular Destinations
+                <div class="icon-black-triangle"></div>
+                </h4>
+                <ul>
+                  <li><a href="#">United States</a></li>
+                  <li><a href="#">Europe</a></li>
+                  <li><a href="#">Latin America</a></li>
+                  <li><a href="#">South Pacific</a></li>
+                  <li><a href="#">Caribbean</a></li>
+                  <li><a href="#">Australia</a></li>
+                  <li><a href="#">All Destinations</a></li>
+                </ul>
+              </div>
+              <div class="categories-list">
+                <h4>
+                Getaways
+                <div class="icon-black-triangle"></div>
+                </h4>
+                <ul>
+                  <li><a href="#">Adventure Vacations</a></li>
+                  <li><a href="#">Beach Vacations</a></li>
+                  <li><a href="#">Cruise Vacations</a></li>
+                  <li><a href="#">Culinary Vacations</a></li>
+                  <li><a href="#">Family Vacations</a></li>
+                  <li><a href="#">Luxury Vacations</a></li>
+                  <li><a href="#">Romantic Vacations</a></li>
+                  <li><a href="#">Ski Vacations</a></li>
+                  <li><a href="#">All Vacations</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="articles">
+              <div class="blue-header articles-header">
+                <h3>
+                  <img class="icon" src="/img/icons/icon-categories.png">
+                  Recent Articles
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-content" id="newsletter-and-contests">
+            <div class="newsletter">
+              <div class="gray-header newsletter-header">
+                <h3>Sign up for our newsletter</h3>
+              </div>
+            
+            </div>
+            <div class="contests">
+
+            </div>
+          </div>
         </div> <!-- End of .main-content -->
       </div>  <!-- End of #main -->
       <div class="footer">
