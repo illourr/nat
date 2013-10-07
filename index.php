@@ -24,9 +24,11 @@
     		<img id="logo" alt="Crispin &amp; Mulberry Logo" src="/img/crispinmulberry-logo.png">
 
     		<div class="top-group clearfix">
-          <label for="top-search" class="search-wrapper ">
-            <input id="top-search" class="search" type="text" placeholder="Search">
-          </label> 
+          <form action="/search" method="get">
+            <label for="top-search" class="search-wrapper ">
+              <input id="top-search" class="search" type="text" placeholder="Search">
+            </label> 
+          </form>
           <div class="user-nav">
             <a href="#" class="margin-right-8px">My Account</a>
             <span class="vertical-rule margin-right-8px"></span>
@@ -246,12 +248,36 @@
             </div>
           </div>
           <div class="sidebar-content" id="newsletter-and-contests">
+            <!-- Start Newsletter -->
             <div class="newsletter">
-              <div class="gray-header newsletter-header">
+              <div class="newsletter-header">
+                <span class="icon-envelope"></span>
                 <h3>Sign up for our newsletter</h3>
               </div>
-            
+              <form action="/newsletter-signup" method="post" class="newsletter-body">
+                <hr>
+                <input class="newsletter-email" placeholder="user@domain.com" type="text"/>
+                <fieldset>
+                  <div class="fieldset-title">Select the newsletters you'd like to receive</div>
+                  <label for="destinations">
+                    <input id="destinations" type="checkbox">
+                    <span class="label-text">Destinations &amp; Getaways</span>
+                  </label>
+                  <label for="travel_tips">
+                    <input id="travel_tips" type="checkbox">
+                    <span class="label-text">Weekly Travel Tips</span>
+                  </label>
+                </fieldset>
+                <input class="newsletter-submit" value="SIGN UP" type="submit">
+              </form>
+              <div class="newsletter-footer">
+                <a href="#" class="margin-right-8px">Privacy Policy</a>
+                <span class="vertical-rule margin-right-8px"></span>
+                <a href="#" class="margin-right-8px">Terms of Use</a>
+              </div>
             </div>
+            <!-- End Newsletter -->
+            
             <div class="contests">
 
             </div>
