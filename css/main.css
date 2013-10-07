@@ -135,9 +135,15 @@ input[type='text'] {
 }
 
 .icon-envelope {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 11px;
   background: url("/img/icons/icon-envelope.png") no-repeat;
+}
+
+.icon-trophy {
+  width: 12px;
+  height: 11px;
+  background: url("/img/icons/icon-trophy.png") no-repeat;
 }
 
 /* ==========================================================================
@@ -541,37 +547,35 @@ h3 {
 }
 /* end of .articles styles */
  
-/* .newsletter styles */
-
-.newsletter {
+.gray-box {
   background: #dbdbdb;
-  height: 232px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 22px;
+}
+.gray-box .gray-header {
   position: relative;
 }
-
-.newsletter .newsletter-body {
+.gray-box .gray-header h3 {
+  color:#282b2e;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 9px 0 9px 33px;
+}
+.gray-box .gray-box-body {
   padding: 0 10px;
 }
-
-.newsletter hr {
+.gray-box hr {
   width: 100%;
   border-top: 1px solid #969696;
 }
-
-.newsletter .newsletter-header {
-  position: relative;
-}
+/* .newsletter styles */
 
 .newsletter .newsletter-header .icon-envelope {
   position: absolute;
   top: 11px;
   left: 10px;
-}
-.newsletter .newsletter-header h3 {
-  color:#282b2e;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 9px 0 9px 33px;
 }
 
 .newsletter input.newsletter-email {
@@ -637,6 +641,36 @@ h3 {
 }
 
 /*  end of .newsletter styles */
+
+/* .contests styles */
+
+.contests {
+  height: 175px;
+}
+
+.contests .contests-header .icon-trophy {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+}
+
+.contests ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contests ul li {
+  margin: 10px 0;
+}
+.contests ul li img {
+  float: left;
+  padding-right: 10px;
+}
+.contests ul li p {
+  margin: 0;
+  font-weight: bold;
+}
+/* end of .contest styles */
 
 /* End of .main-content styles */
 

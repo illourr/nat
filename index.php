@@ -249,12 +249,12 @@
           </div>
           <div class="sidebar-content" id="newsletter-and-contests">
             <!-- Start Newsletter -->
-            <div class="newsletter">
-              <div class="newsletter-header">
+            <div class="newsletter gray-box clearfix">
+              <div class="newsletter-header gray-header">
                 <span class="icon-envelope"></span>
                 <h3>Sign up for our newsletter</h3>
               </div>
-              <form action="/newsletter-signup" method="post" class="newsletter-body">
+              <form action="/newsletter-signup" method="post" class="gray-box-body">
                 <hr>
                 <input class="newsletter-email" placeholder="user@domain.com" type="text"/>
                 <fieldset>
@@ -278,8 +278,24 @@
             </div>
             <!-- End Newsletter -->
             
-            <div class="contests">
-
+            <div class="contests gray-box">
+              <div class="contests-header gray-header">
+                <span class="icon-trophy"></span>
+                <h3>Current Contests</h3>
+              </div>
+              <div class="gray-box-body">
+                <hr>
+                <ul>
+                  <li class="clearfix">
+                    <img src="/img/yetishrine.png" alt="Yeti Shrine in the heart of Asia">
+                    <p>Win an all inclusive trip to the famous Yeti Shrine deep in the heart of Asia</p>
+                  </li>
+                  <li class="clearfix">
+                    <img src="/img/stonehenge.png" alt="Stonehenge">
+                    <p>Win a mystical trip to Bath that includes a guided tour of Stonehenge</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div> <!-- End of .main-content -->
