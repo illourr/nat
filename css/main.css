@@ -103,6 +103,7 @@ img {
   max-width: 100%;
 }
 
+
 /* Icons */
 .icon-blue-triangle {
   width: 12px;
@@ -113,6 +114,16 @@ img {
   width: 12px;
   height: 10px;
   background: url("/img/icons/icon-black-triangle.png") no-repeat;
+}
+.icon-articles {
+  background: url("/img/icons/icon-articles.png") no-repeat;
+  width: 15px;
+  height:16px;
+}
+.icon-categories {
+  width: 15px;
+  height: 12px;
+  background: url("/img/icons/icon-categories.png") no-repeat;
 }
 
 /* ==========================================================================
@@ -431,10 +442,21 @@ h3 {
   padding: 9px 0 9px 0;
 }
 
+
+
 /* .categories styles */
 .categories {
   width: 176px;
   float: left;
+}
+
+.categories .icon-categories {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.lt-ie8 .categories .icon-categories {
+  top: 12px;
 }
 .categories-list {
   font-size: 14px;
@@ -478,8 +500,42 @@ h3 {
   float: left;
   width: 470px;
   margin-left: 20px;
+  font-size: 14px;
 }
 
+.articles .icon-articles {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.articles ul {
+  list-style: none;
+  padding: 0;
+}
+.articles ul li {
+  height: 125px;
+}
+.articles ul li img {
+  float: left;
+  padding-right: 15px;
+}
+.articles ul li .article-text {
+  margin-bottom: 20px;
+}
+.articles ul li .article-text h4 {
+  margin: 0;
+}
+.articles ul li .article-text h4 a { 
+  text-decoration: none;
+  color: #282b2e;
+}
+.articles ul li .article-text h4 a:hover {
+  text-decoration: underline;
+} 
+.articles ul li .article-text p {
+  margin: 5px 0 0 0;
+  line-height: 18px;
+}
 /* end of .articles styles */
  
 /* End of .main-content styles */

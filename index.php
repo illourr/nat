@@ -162,14 +162,14 @@
               <div class="blue-header categories-header left-hang">
                 <img class="fold" src="/img/fold.png">
                 <h3>
-                  <img class="icon" src="/img/icons/icon-categories.png">
+                  <span class="icon-categories"></span>
                   Browse Categories
                 </h3>
               </div>
               <div class="categories-list">
                 <h4>
                 Popular Destinations
-                <div class="icon-black-triangle"></div>
+                <span class="icon-black-triangle"></span>
                 </h4>
                 <ul>
                   <li><a href="#">United States</a></li>
@@ -184,7 +184,7 @@
               <div class="categories-list">
                 <h4>
                 Getaways
-                <div class="icon-black-triangle"></div>
+                <span class="icon-black-triangle"></span>
                 </h4>
                 <ul>
                   <li><a href="#">Adventure Vacations</a></li>
@@ -203,9 +203,45 @@
             <div class="articles">
               <div class="blue-header articles-header">
                 <h3>
-                  <img class="icon" src="/img/icons/icon-categories.png">
+                  <span class="icon-articles"></span>
                   Recent Articles
                 </h3>
+                <ul class="articles-list">
+                  <li>
+                    <img src="/img/disneyworld.png" alt="Disney World">
+                    <div class="article-text">
+                      <h4>
+                        <a href="#">Don't Miss the Parades at DisneyWorld</a>
+                      </h4>
+                      <p>
+                        The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music.  The entertainment never stops as parades are scheduled throughout the entire day.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="/img/lasvegas.png" alt="Las Vegas Sign">
+                    <div class="article-text">
+                      <h4>
+                        <a href="#">Get Your Kicks in Downtown Las Vegas</a>
+                      </h4>
+                      <p>
+                        Get off the strip and check out what Old Vegas has to offer.  From shark infested water slides to the nightly Fremont Street Experience it's sure to please adventurers of all ages.
+                      </p>
+                    </div>
+                    
+                  </li>
+                  <li>
+                    <img src="/img/chicago.png" alt="Chicago Skyline">
+                    <div class="article-text">
+                      <h4>
+                        <a href="#">Don't Miss Deep Dish in Chicago</a>
+                      </h4>
+                      <p>
+                        Deep dish pizza is as synonymous with Chicago as Thin Crust is to New York.  Any way you slice it, any trip to the windy city is incomplete without an italian flavor explosion in your mouth.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
