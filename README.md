@@ -1,6 +1,7 @@
 # NAT (Nerdery Assessment Test)
-Author: Dillon Curry
-Objective: Convert the Crispin & Mulberry PSD to HTML/CSS/JS
+**Author:** Dillon Curry
+
+**Objective:** Convert the Crispin & Mulberry PSD to HTML/CSS/JS
 
 ## Notes
 * I used HTML5 Boilerplate to get a basic page setup with all the best practices.
