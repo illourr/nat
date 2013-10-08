@@ -758,6 +758,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.twitter-timeline {
+  height: 390px;
+}
+
 .videos-header .icon-camera {
   position: absolute;
   left: 10px;
