@@ -146,6 +146,17 @@ input[type='text'] {
   background: url("/img/icons/icon-trophy.png") no-repeat;
 }
 
+.icon-camera {
+  width: 12px;
+  height: 16px;
+  background: url("/img/icons/icon-camera.png") no-repeat;
+}
+
+.icon-play-button {
+  width: 42px;
+  height: 42px;
+  background: url("/img/icons/icon-play-button.png") no-repeat;
+}
 /* ==========================================================================
    Custom styles
    ========================================================================== */
@@ -298,7 +309,7 @@ h3 {
 
 /* .main-content styles */
 .main-content {
-  height: 1400px;
+  /*height: 1400px;*/
   background: #fff;
 }
 
@@ -426,7 +437,6 @@ h3 {
 
 .blue-header.left-hang h3 {
   left: -33px;
-  width: 209px;
 }
 
 
@@ -449,7 +459,9 @@ h3 {
 }
 
 
-
+#categories-and-articles, #newsletter-and-contests {
+  margin-bottom: 0px;
+}
 
 
 /* .categories styles */
@@ -465,6 +477,9 @@ h3 {
 }
 .lt-ie8 .categories .icon-categories {
   top: 12px;
+}
+.categories h3 {
+  width: 209px;
 }
 .categories-list {
   font-size: 14px;
@@ -672,6 +687,62 @@ h3 {
 }
 /* end of .contest styles */
 
+/* popular videos styles */
+
+#popular-videos, #twitter-widget {
+  margin-top: 0;
+}
+
+.videos-header .icon-camera {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.videos-header h3 {
+  width: 696px;
+}
+
+.videos .videos-row {
+  margin-top: 20px;
+}
+
+.videos .videos-row .video-wrapper {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+.videos .videos-row .video-wrapper .icon-wrapper {
+  text-align:center;
+  width: 100%;
+  position: absolute;
+}
+.videos .videos-row .video-wrapper .icon-wrapper .icon-play-button {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+}
+
+.videos .videos-row .video-wrapper.last {
+  margin-right: 0;
+} 
+.videos .videos-row .video-wrapper .video-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 7px 15px ;
+  margin: 0;
+  font-weight: bold;
+  font-size: 13px;
+  background: #cccdcd;
+  opacity:0.85;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85); 
+}
+
+/* end of  popular videos styles */
+
+
 /* End of .main-content styles */
 
 /* .footer styles */
@@ -685,9 +756,7 @@ h3 {
   top: 12px;
   left: 20px;
 }
-.footer .footer-left .footer-nav {
-  
-}
+
 .footer .footer-left .footer-nav a {
   position: relative;
   color: #fff;
@@ -708,20 +777,6 @@ h3 {
   float: right;
 }
 /* End of .footer styles*/
-
-#main.container {
-  /*height: 1000px;*/
-  /*background: #fff;*/
-}
-
-
-
-
-
-
-
-
-
 
 
 

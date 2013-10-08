@@ -73,13 +73,13 @@
             </a>
           </li>
         </ul> <!-- End of .main-nav -->
-        <div class="main-content">
+        <div class="main-content clearfix">
           <div class="section-content" id="hero">
             <!--  CAROUSEL START -->
             <div class="carousel"> 
               <div class="indicator"></div>
               <div class="active-image">
-                <img class="" src="/img/carousel/slide1.png">
+                <img class="" alt="Baltimore" src="/img/carousel/slide1.png">
                 <div class="caption-background"></div>
                 <div class="caption">
                   <h2>
@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="active-image hidden">  
-                <img class="" src="/img/carousel/slide2.png">
+                <img class="" alt="The Ventian" src="/img/carousel/slide2.png">
                 <div class="caption-background"></div>
                 <div class="caption">
                   <h2>
@@ -103,7 +103,7 @@
                 </div>
               </div>
               <div class="active-image hidden">
-                <img class="" src="/img/carousel/slide3.png">
+                <img class="" alt="London" src="/img/carousel/slide3.png">
                 <div class="caption-background"></div>
                 <div class="caption">
                   <h2>
@@ -115,7 +115,7 @@
                 </div>
               </div>
               <div class="active-image hidden">
-                <img class="" src="/img/carousel/slide4.png">
+                <img class="" alt="Mount Rushmore" src="/img/carousel/slide4.png">
                 <div class="caption-background"></div>
                 <div class="caption">
                   <h2>
@@ -152,10 +152,10 @@
           </div>
           <div class="sidebar-content" id="advertisements">
             <div class="advertisement margin-bottom-20px">
-              <img src="/img/ad-1.png"/>
+              <img alt="Holiday Inn Advertisement" src="/img/ad-1.png"/>
             </div>
             <div class="advertisement">
-              <img src="/img/ad-2.png"/>
+              <img alt="Rise of the Guardians Advertisement" src="/img/ad-2.png"/>
             </div>
           </div>
           <hr>
@@ -208,45 +208,46 @@
                   <span class="icon-articles"></span>
                   Recent Articles
                 </h3>
-                <ul class="articles-list">
-                  <li>
-                    <img src="/img/disneyworld.png" alt="Disney World">
-                    <div class="article-text">
-                      <h4>
-                        <a href="#">Don't Miss the Parades at DisneyWorld</a>
-                      </h4>
-                      <p>
-                        The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music.  The entertainment never stops as parades are scheduled throughout the entire day.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="/img/lasvegas.png" alt="Las Vegas Sign">
-                    <div class="article-text">
-                      <h4>
-                        <a href="#">Get Your Kicks in Downtown Las Vegas</a>
-                      </h4>
-                      <p>
-                        Get off the strip and check out what Old Vegas has to offer.  From shark infested water slides to the nightly Fremont Street Experience it's sure to please adventurers of all ages.
-                      </p>
-                    </div>
-                    
-                  </li>
-                  <li>
-                    <img src="/img/chicago.png" alt="Chicago Skyline">
-                    <div class="article-text">
-                      <h4>
-                        <a href="#">Don't Miss Deep Dish in Chicago</a>
-                      </h4>
-                      <p>
-                        Deep dish pizza is as synonymous with Chicago as Thin Crust is to New York.  Any way you slice it, any trip to the windy city is incomplete without an italian flavor explosion in your mouth.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
               </div>
+              <ul class="articles-list">
+                <li>
+                  <img src="/img/disneyworld.png" alt="Disney World">
+                  <div class="article-text">
+                    <h4>
+                      <a href="#">Don't Miss the Parades at DisneyWorld</a>
+                    </h4>
+                    <p>
+                      The parades at Disney World are a one of a kind celebration full of all your favorite Disney characters and music.  The entertainment never stops as parades are scheduled throughout the entire day.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="/img/lasvegas.png" alt="Las Vegas Sign">
+                  <div class="article-text">
+                    <h4>
+                      <a href="#">Get Your Kicks in Downtown Las Vegas</a>
+                    </h4>
+                    <p>
+                      Get off the strip and check out what Old Vegas has to offer.  From shark infested water slides to the nightly Fremont Street Experience it's sure to please adventurers of all ages.
+                    </p>
+                  </div>
+                  
+                </li>
+                <li>
+                  <img src="/img/chicago.png" alt="Chicago Skyline">
+                  <div class="article-text">
+                    <h4>
+                      <a href="#">Don't Miss Deep Dish in Chicago</a>
+                    </h4>
+                    <p>
+                      Deep dish pizza is as synonymous with Chicago as Thin Crust is to New York.  Any way you slice it, any trip to the windy city is incomplete without an italian flavor explosion in your mouth.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              
             </div>
-          </div>
+          </div> <!-- end of section-content and categories and articles -->
           <div class="sidebar-content" id="newsletter-and-contests">
             <!-- Start Newsletter -->
             <div class="newsletter gray-box clearfix">
@@ -297,7 +298,67 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> <!-- end of newsletter and contests and sidebar content -->
+          <div class="section-content videos" id="popular-videos"> <!-- start of popular videos -->
+            <div class="blue-header videos-header left-hang">
+              <img class="fold" src="/img/fold.png">
+              <h3>
+                <span class="icon-camera"></span>
+                Popular Videos
+              </h3>
+            </div>
+            <div class="videos-row clearfix">
+              <div class="video-wrapper">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/mongoose.png" alt="Team Mongoose" class="video-thumbnail">
+                <p class="video-title">Team Mongoose</p>
+              </div>
+              <div class="video-wrapper">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/stpaulscathedral.png" alt="St Paul's Cathedral" class="video-thumbnail">
+                <p class="video-title">St Paul's Cathedral</p>
+              </div>
+              <div class="video-wrapper last">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/hollywoodandhighland.png" alt="Hollywood and Highland" class="video-thumbnail">
+                <p class="video-title">Hollywood and Highland</p>
+              </div>
+            </div>
+            <div class="videos-row clearfix">
+              <div class="video-wrapper">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/lakewissota.png" alt="Lake Wissota" class="video-thumbnail">
+                <p class="video-title">Lake Wissota</p>
+              </div>
+              <div class="video-wrapper">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/bellagiofountains.png" alt="The Bellagio Fountains" class="video-thumbnail">
+                <p class="video-title">The Bellagio Fountains</p>
+              </div>
+              <div class="video-wrapper last">
+                <div class="icon-wrapper">
+                  <div class="icon-play-button"></div>
+                </div>
+                <img src="/img/videos/atlanticcoast.png" alt="The Atlantic Coast" class="video-thumbnail">
+                <p class="video-title">The Atlantic Coast</p>
+              </div>
+            </div>
+          </div> <!-- end of popular videos -->
+          <div class="sidebar-content" id="twitter-widget"> <!-- start of twitter widget -->
+            <a class="twitter-timeline" href="https://twitter.com/CrispinMulberry" data-widget-id="387341538239332353">Tweets by @CrispinMulberry</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          </div> <!-- end of twitter widget -->
         </div> <!-- End of .main-content -->
       </div>  <!-- End of #main -->
       <div class="footer">
