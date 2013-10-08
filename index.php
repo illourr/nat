@@ -382,6 +382,13 @@
           </div>
         </div>
         <div class="footer-right">
+          <div class="social-icons">
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-flickr"></a>
+            <a href="#" class="icon-twitter"></a>
+            <a href="#" class="icon-vimeo"></a>
+            <a href="#" class="icon-rss last"></a>
+          </div>
         </div>
       </div> <!-- End of .footer -->
     </div> <!-- End of #page -->

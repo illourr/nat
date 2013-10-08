@@ -157,6 +157,36 @@ input[type='text'] {
   height: 42px;
   background: url("/img/icons/icon-play-button.png") no-repeat;
 }
+
+.icon-facebook {
+  width: 26px;
+  height: 26px;
+  background: url("/img/icons/icon-facebook.png") no-repeat;
+}
+
+.icon-flickr {
+  width: 26px;
+  height: 26px;
+  background: url("/img/icons/icon-flickr.png") no-repeat;
+}
+
+.icon-twitter {
+  width: 26px;
+  height: 26px;
+  background: url("/img/icons/icon-twitter.png") no-repeat;
+}
+
+.icon-vimeo {
+  width: 26px;
+  height: 26px;
+  background: url("/img/icons/icon-vimeo.png") no-repeat;
+}
+
+.icon-rss {
+  width: 26px;
+  height: 26px;
+  background: url("/img/icons/icon-rss.png") no-repeat;
+}
 /* ==========================================================================
    Custom styles
    ========================================================================== */
@@ -721,6 +751,7 @@ h3 {
   position: relative;
   top: 50px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .videos .videos-row .video-wrapper.last {
@@ -747,7 +778,7 @@ h3 {
 
 /* .footer styles */
 .footer {
-  height: 66px;
+  height: 68px;
   background: #2C2C2C;
 }
 .footer .footer-left {
@@ -776,6 +807,22 @@ h3 {
 .footer .footer-right {
   float: right;
 }
+
+.footer .footer-right .social-icons {
+  margin-right: 20px;
+}
+
+.footer .footer-right .social-icons a {
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.footer .footer-right .social-icons a.last {
+  margin-right: 0;
+}
+
 /* End of .footer styles*/
 
 
