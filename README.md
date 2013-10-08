@@ -16,3 +16,4 @@
 * I initially started to make everything responsive but decided it was taking far too long, and making that work in older browsers requires the respond.js polyfill.
 * Had a fun time rewriting everything at least 4 times to make it work in IE!
 * I deployed it to Heroku just by changing index.html to index.php. The site can be found at http://dilloncurry-nat.herokuapp.com/
+* I would have preferred to use some sort of server-side framework with PHP/Rails/Node.js to split the pieces of the site into partials/templates to make it easier to maintain and insert dynamic content.
