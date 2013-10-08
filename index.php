@@ -9,6 +9,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -260,14 +261,19 @@
                 <input class="newsletter-email" placeholder="user@domain.com" type="text"/>
                 <fieldset>
                   <div class="fieldset-title">Select the newsletters you'd like to receive</div>
-                  <label for="destinations">
-                    <input id="destinations" type="checkbox">
-                    <span class="label-text">Destinations &amp; Getaways</span>
-                  </label>
-                  <label for="travel_tips">
-                    <input id="travel_tips" type="checkbox">
-                    <span class="label-text">Weekly Travel Tips</span>
-                  </label>
+                  <div class="checkbox">
+                    <label for="destinations">
+                      <input id="destinations" type="checkbox">
+                      <span class="label-text">Destinations &amp; Getaways</span>
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="travel_tips">
+                      <input id="travel_tips" type="checkbox">
+                      <span class="label-text">Weekly Travel Tips</span>
+                    </label>
+                  </div>
+
                 </fieldset>
                 <input class="newsletter-submit" value="SIGN UP" type="submit">
               </form>
@@ -313,21 +319,21 @@
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/mongoose.png" alt="Team Mongoose" class="video-thumbnail">
-                <p class="video-title">Team Mongoose</p>
+                <div class="video-title">Team Mongoose</div>
               </div>
               <div class="video-wrapper">
                 <div class="icon-wrapper">
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/stpaulscathedral.png" alt="St Paul's Cathedral" class="video-thumbnail">
-                <p class="video-title">St Paul's Cathedral</p>
+                <div class="video-title">St Paul's Cathedral</div>
               </div>
               <div class="video-wrapper last">
                 <div class="icon-wrapper">
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/hollywoodandhighland.png" alt="Hollywood and Highland" class="video-thumbnail">
-                <p class="video-title">Hollywood and Highland</p>
+                <div class="video-title">Hollywood and Highland</div>
               </div>
             </div>
             <div class="videos-row clearfix">
@@ -336,21 +342,21 @@
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/lakewissota.png" alt="Lake Wissota" class="video-thumbnail">
-                <p class="video-title">Lake Wissota</p>
+                <div class="video-title">Lake Wissota</div>
               </div>
               <div class="video-wrapper">
                 <div class="icon-wrapper">
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/bellagiofountains.png" alt="The Bellagio Fountains" class="video-thumbnail">
-                <p class="video-title">The Bellagio Fountains</p>
+                <div class="video-title">The Bellagio Fountains</div>
               </div>
               <div class="video-wrapper last">
                 <div class="icon-wrapper">
                   <div class="icon-play-button"></div>
                 </div>
                 <img src="/img/videos/atlanticcoast.png" alt="The Atlantic Coast" class="video-thumbnail">
-                <p class="video-title">The Atlantic Coast</p>
+                <div class="video-title">The Atlantic Coast</div>
               </div>
             </div>
           </div> <!-- end of popular videos -->
