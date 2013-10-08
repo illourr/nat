@@ -9,7 +9,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -26,7 +26,7 @@
     		<div class="top-group clearfix">
           <form action="/search" method="get">
             <label for="top-search" class="search-wrapper ">
-              <input id="top-search" class="search" type="text" placeholder="Search">
+              <input name="search" id="top-search" class="search" type="text" placeholder="Search">
             </label> 
           </form>
           <div class="user-nav">
@@ -257,18 +257,18 @@
               </div>
               <form action="/newsletter-signup" method="post" class="gray-box-body">
                 <hr>
-                <input class="newsletter-email" placeholder="user@domain.com" type="text"/>
+                <input name="email" class="newsletter-email" placeholder="user@domain.com" type="text"/>
                 <fieldset>
                   <div class="fieldset-title">Select the newsletters you'd like to receive</div>
                   <div class="checkbox">
                     <label for="destinations">
-                      <input id="destinations" type="checkbox">
+                      <input name="destinations" id="destinations" type="checkbox">
                       <span class="label-text">Destinations &amp; Getaways</span>
                     </label>
                   </div>
                   <div class="checkbox">
                     <label for="travel_tips">
-                      <input id="travel_tips" type="checkbox">
+                      <input name="travel_tips" id="travel_tips" type="checkbox">
                       <span class="label-text">Weekly Travel Tips</span>
                     </label>
                   </div>
